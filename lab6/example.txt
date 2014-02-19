@@ -1,0 +1,31 @@
+float a = 1.0, b = 0, c = 0;
+string el = "";
+
+int gcd(int m, int n) {
+    int res = 0;
+    if (m!=n) { 
+        if (m > n) 
+            res = gcd(m-n, n);
+        else
+            res = gcd(n-m, m);
+    }
+    else
+        res = m;
+
+    print res;
+    return res;
+}
+
+
+while(a >= b ) {
+    int z = 1;
+    a = 1/2*(a+b/a);
+    el = "ala"*2.5;
+    el = a*"ala";
+    if (el > a)
+        print "ala";
+    el = el+3;
+    el = "kot"/3;
+    z = gcd("ala", 1);
+    
+}
